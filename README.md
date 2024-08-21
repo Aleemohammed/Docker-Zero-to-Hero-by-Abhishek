@@ -281,8 +281,9 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t abhishekf5/my-first-docker-image:latest . #if this isn't work try below with your docker username
 ```
+docker build -t knowhatdevops/my-first-docker-image:latest .
 
 Output of the above command
 
