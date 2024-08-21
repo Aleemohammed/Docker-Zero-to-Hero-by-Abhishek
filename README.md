@@ -200,8 +200,9 @@ See 'docker run --help'.
 This can mean two things, 
 1. Docker deamon is not running.
 2. Your user does not have access to run docker commands.
-
-
+-----
+Grant permission to user follow below command
+sudo usermod -aG docker username inmy case it was aleem/shah
 ### Start Docker daemon
 
 You use the below command to verify if the docker daemon is actually started and Active
